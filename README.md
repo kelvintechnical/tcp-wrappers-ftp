@@ -1,11 +1,11 @@
 # Lab: Configure TCP Wrappers for FTP (`vsftpd`)
 
-**Series:** linux-ops-mastery — RHCSA TCP Wrappers & PAM
-**Subjects covered:** `vsftpd` install/enable, `/etc/hosts.allow` / `/etc/hosts.deny` for FTP, **per-IP deny** patterns, `systemctl` + `ss -lntp`, RHEL 8+ libwrap reality check, pairing with `firewalld` for modern deployments
-**Career arcs covered:** RHCSA (service + ACL wiring), RHCE (role variables for FTP hardening), SRE (temporary IP blocks), DevOps (legacy app FTP sunsets), AI (policy translation)
-**Prerequisite:** Labs 68–70 (linkage + hosts.* mechanics)
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 install · 2–3 enable/listen · 4 wrapper rules · 5 verify path · 6 capstone + full cleanup
+- **Series:** linux-ops-mastery — RHCSA TCP Wrappers & PAM
+- **Subjects covered:** `vsftpd` install/enable, `/etc/hosts.allow` / `/etc/hosts.deny` for FTP, **per-IP deny** patterns, `systemctl` + `ss -lntp`, RHEL 8+ libwrap reality check, pairing with `firewalld` for modern deployments
+- **Career arcs covered:** RHCSA (service + ACL wiring), RHCE (role variables for FTP hardening), SRE (temporary IP blocks), DevOps (legacy app FTP sunsets), AI (policy translation)
+- **Prerequisite:** Labs 68–70 (linkage + hosts.* mechanics)
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 install · 2–3 enable/listen · 4 wrapper rules · 5 verify path · 6 capstone + full cleanup
 
 ---
 
